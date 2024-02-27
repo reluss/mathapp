@@ -51,39 +51,45 @@
 
 <div class="container">
 
-{zahl1} * {zahl2} = <input type="number" bind:value={ergebnisI} placeholder="Ergebnis eintragen" on:keydown={pressed}>
-	
-<br>
-<br>
+    {zahl1} * {zahl2} = <input type="number" bind:value={ergebnisI} placeholder="" on:keydown={pressed}>
+        
+    <br>
+    <br>
 
 
-<button on:click={handleClick}>
-	Nächste Aufgabe
-</button>
-<br>
-<br>
-Richtige Antworten: {richtig}
-<br>
-Falsche Antworten: {falsch}
-<br>
+    <button on:click={handleClick}>
+        Nächste Aufgabe
+    </button>
+    <br>
+    <br>
+    Richtige Antworten: {richtig}
+    <br>
+    Falsche Antworten: {falsch}
+    <br>
 
 
-<h1 style="--theme-color: {color}">{antwort}</h1>
+    <h1 style="--theme-color: {color}">{antwort}</h1>
 
 </div>
 
 <style>
     :global(body) {
-        background: rgb(109, 151, 177);
+        background: rgb(24, 54, 73);
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
     }
     .container {
         text-align: center;
+        font-size: 2em;
     }
+    
 	h1 {
 		color: var(--theme-color);
 	}
 	input {
     border: transparent;
+    font-size: 0.8em;
+    width: 7%;
 }
 	input:focus{
     outline: none;

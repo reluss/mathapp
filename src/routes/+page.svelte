@@ -62,9 +62,9 @@
     </button>
     <br>
     <br>
-    Richtige Antworten: {richtig}
+    Richtig: {richtig}
     <br>
-    Falsche Antworten: {falsch}
+    Falsch: {falsch}
     <br>
 
 

@@ -74,7 +74,7 @@
 
 <style>
     :global(body) {
-        background: rgb(24, 54, 73);
+        background: rgb(24, 55, 73);
         font-family: sans-serif;
         color: rgb(255, 255, 255);
     }
